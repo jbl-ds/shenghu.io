@@ -11,7 +11,7 @@ Index Of css
 08. Achievement CSS
 09. Why Choose CSS
 10. Call Action CSS
-11. Portfolio CSS
+11. Product CSS
 12. Team CSS
 13. Testimonial CSS
 14. Pricing CSS
@@ -3395,30 +3395,30 @@ ol {
 }
 
 /*======================================
-    Portfolio CSS
+    Product CSS
 ========================================*/
-.portfolio-section .see-all {
+.Product-section .see-all {
   display: block;
   margin-top: 40px;
   text-align: center;
 }
 
-.portfolio-section .portfolio-btn-wrapper {
+.Product-section .Product-btn-wrapper {
   margin-bottom: 0;
   text-align: center;
 }
 
-.portfolio-button-head {
+.Product-button-head {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.portfolio-section .grid {
+.Product-section .grid {
   margin-top: 70px;
 }
 
-.portfolio-section .portfolio-btn-wrapper button {
+.Product-section .Product-btn-wrapper button {
   padding: 8px 0;
   font-size: 15px;
   font-weight: 500;
@@ -3433,7 +3433,7 @@ ol {
   position: relative;
 }
 
-.portfolio-section .portfolio-btn-wrapper button::before {
+.Product-section .Product-btn-wrapper button::before {
   position: absolute;
   content: "";
   left: 0;
@@ -3446,20 +3446,20 @@ ol {
   -moz-transition: all 0.5s cubic-bezier(0.78, 0.01, 0.24, 1.02);
 }
 
-.portfolio-section .portfolio-btn-wrapper button.active {
+.Product-section .Product-btn-wrapper button.active {
   color: #473bf0;
 }
 
-.portfolio-section .portfolio-btn-wrapper button.active::before {
+.Product-section .Product-btn-wrapper button.active::before {
   width: 100%;
 }
 
-.portfolio-section .portfolio-btn-wrapper button:hover {
+.Product-section .Product-btn-wrapper button:hover {
   color: #473bf0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .portfolio-section .portfolio-btn-wrapper button {
+  .Product-section .Product-btn-wrapper button {
     margin-right: 10px;
     padding: 7px 18px;
     font-size: 16px;
@@ -3467,18 +3467,18 @@ ol {
 }
 
 @media (max-width: 767px) {
-  .portfolio-section .portfolio-btn-wrapper button {
+  .Product-section .Product-btn-wrapper button {
     margin-right: 10px;
     padding: 7px 18px;
     font-size: 16px;
   }
 }
 
-.portfolio-section .portfolio-btn-wrapper button:last-child {
+.Product-section .Product-btn-wrapper button:last-child {
   margin-right: 0;
 }
 
-.portfolio-item-wrapper {
+.Product-item-wrapper {
   position: relative;
   border-radius: 0;
   overflow: hidden;
@@ -3486,13 +3486,13 @@ ol {
   padding: 0px 30px;
 }
 
-.portfolio-item-wrapper .portfolio-img {
+.Product-item-wrapper .Product-img {
   overflow: hidden;
   position: relative;
   cursor: pointer;
 }
 
-.portfolio-item-wrapper .portfolio-img::before {
+.Product-item-wrapper .Product-img::before {
   position: absolute;
   content: "";
   left: 0;
@@ -3507,57 +3507,57 @@ ol {
   z-index: 1;
 }
 
-.portfolio-item-wrapper:hover .portfolio-img::before {
+.Product-item-wrapper:hover .Product-img::before {
   border: 10px solid #fff;
 }
 
-.portfolio-item-wrapper .portfolio-img img {
+.Product-item-wrapper .Product-img img {
   width: 100%;
   transition: all 0.8s cubic-bezier(0.78, 0.01, 0.24, 1.02);
   -webkit-transition: all 0.8s cubic-bezier(0.78, 0.01, 0.24, 1.02);
   -moz-transition: all 0.8s cubic-bezier(0.78, 0.01, 0.24, 1.02);
 }
 
-.portfolio-item-wrapper:hover .portfolio-img img {
+.Product-item-wrapper:hover .Product-img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.portfolio-section .pf-content {
+.Product-section .pf-content {
   margin-top: 30px;
   padding: 27px 30px;
   padding: 0 30px;
 }
 
-.portfolio-section .pf-content .category {
+.Product-section .pf-content .category {
   font-size: 14px;
   color: #9b9ba7;
   font-weight: 300;
 }
 
-.portfolio-section .pf-content h4 a {
+.Product-section .pf-content h4 a {
   margin-top: 5px;
   color: #081828;
   font-size: 20px;
   font-weight: 600;
 }
 
-.portfolio-section .pf-content h4 a:hover {
+.Product-section .pf-content h4 a:hover {
   color: #473bf0;
 }
 
-/* Portfolio Details */
-.portfolio-details .content img {
+/* Product Details */
+.Product-details .content img {
   width: 100%;
   border-radius: 5px;
   overflow: hidden;
 }
 
-.portfolio-details .content .thumb {
+.Product-details .content .thumb {
   margin-bottom: 40px;
 }
 
-.portfolio-details .content h3 {
+.Product-details .content h3 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -3565,42 +3565,42 @@ ol {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .content h4 {
+.Product-details .content h4 {
   font-size: 18px;
   font-weight: 600;
   margin: 20px 0;
   margin-top: 30px;
 }
 
-.portfolio-details .content h4 span {
+.Product-details .content h4 span {
   color: #473bf0;
   display: inline-block;
   margin-right: 4px;
 }
 
-.portfolio-details .content p {
+.Product-details .content p {
   display: block;
   margin: 20px 0;
   line-height: 24px;
 }
 
-.portfolio-details .content .list {
+.Product-details .content .list {
   margin: 40px 0;
   padding-left: 30px;
 }
 
-.portfolio-details .content .list li {
+.Product-details .content .list li {
   display: block;
   margin-bottom: 15px;
   position: relative;
   padding-left: 32px;
 }
 
-.portfolio-details .content .list li:last-child {
+.Product-details .content .list li:last-child {
   margin-bottom: 0;
 }
 
-.portfolio-details .content .list li i {
+.Product-details .content .list li i {
   position: absolute;
   left: 0;
   top: 0;
@@ -3614,45 +3614,45 @@ ol {
   border-radius: 50%;
 }
 
-.portfolio-details .content .image-block {
+.Product-details .content .image-block {
   margin: 40px 0;
 }
 
-.portfolio-details .content .share {
+.Product-details .content .share {
   overflow: hidden;
   padding-top: 30px;
 }
 
-.portfolio-details .content .share span {
+.Product-details .content .share span {
   font-weight: 500;
   display: block;
   margin-bottom: 10px;
 }
 
-.portfolio-details .content .share ul li {
+.Product-details .content .share ul li {
   display: inline-block;
   margin-right: 20px;
 }
 
-.portfolio-details .content .share ul li:last-child {
+.Product-details .content .share ul li:last-child {
   margin-right: 0;
 }
 
-.portfolio-details .content .share ul li a {
+.Product-details .content .share ul li a {
   color: #888;
 }
 
-.portfolio-details .content .share ul li a:hover {
+.Product-details .content .share ul li a:hover {
   color: #473bf0;
 }
 
-.portfolio-details .pf-details-sidebar {
+.Product-details .pf-details-sidebar {
   padding: 50px;
   background-color: #f4f7fa;
   border-radius: 5px;
 }
 
-.portfolio-details .pf-details-sidebar h4 {
+.Product-details .pf-details-sidebar h4 {
   font-size: 20px;
   font-weight: 600;
   border-bottom: 1px dashed #473bf0;
@@ -3660,32 +3660,32 @@ ol {
   padding-bottom: 20px;
 }
 
-.portfolio-details .pf-details-sidebar ul li {
+.Product-details .pf-details-sidebar ul li {
   display: block;
   margin-bottom: 15px;
 }
 
-.portfolio-details .pf-details-sidebar ul li:last-child {
+.Product-details .pf-details-sidebar ul li:last-child {
   margin-bottom: 0;
 }
 
-.portfolio-details .pf-details-sidebar ul li a {
+.Product-details .pf-details-sidebar ul li a {
   color: #888;
 }
 
-.portfolio-details .pf-details-sidebar ul li a:hover {
+.Product-details .pf-details-sidebar ul li a:hover {
   color: #473bf0;
   text-decoration: underline;
 }
 
-.portfolio-details .pf-details-sidebar ul li span {
+.Product-details .pf-details-sidebar ul li span {
   color: #081828;
   display: inline-block;
   margin-right: 3px;
   font-weight: 500;
 }
 
-.portfolio-details .recent-nav {
+.Product-details .recent-nav {
   overflow: hidden;
   padding: 40px 30px;
   background-color: #f4f7fa;
@@ -3693,53 +3693,53 @@ ol {
   margin-top: 40px;
 }
 
-.portfolio-details .recent-nav .prev-project a {
+.Product-details .recent-nav .prev-project a {
   color: #081828;
   font-size: 13px;
   font-weight: 600;
 }
 
-.portfolio-details .recent-nav .prev-project a:hover {
+.Product-details .recent-nav .prev-project a:hover {
   color: #473bf0;
 }
 
-.portfolio-details .recent-nav .prev-project a i {
+.Product-details .recent-nav .prev-project a i {
   display: inline-block;
   margin-right: 5px;
 }
 
-.portfolio-details .recent-nav .middle-grid {
+.Product-details .recent-nav .middle-grid {
   text-align: center;
 }
 
-.portfolio-details .recent-nav .middle-grid i {
+.Product-details .recent-nav .middle-grid i {
   color: #081828;
 }
 
-.portfolio-details .recent-nav .next-project {
+.Product-details .recent-nav .next-project {
   float: right;
 }
 
-.portfolio-details .recent-nav .next-project a {
+.Product-details .recent-nav .next-project a {
   color: #081828;
   font-size: 13px;
   font-weight: 600;
 }
 
-.portfolio-details .recent-nav .next-project a:hover {
+.Product-details .recent-nav .next-project a:hover {
   color: #473bf0;
 }
 
-.portfolio-details .recent-nav .next-project a i {
+.Product-details .recent-nav .next-project a i {
   display: inline-block;
   margin-left: 5px;
 }
 
-.portfolio-details .related-project {
+.Product-details .related-project {
   margin-top: 70px;
 }
 
-.portfolio-details .related-project .title {
+.Product-details .related-project .title {
   font-size: 25px;
   line-height: 40px;
   text-transform: capitalize;
@@ -3747,7 +3747,7 @@ ol {
   font-weight: 700;
 }
 
-.portfolio-details .related-project .single-related-project {
+.Product-details .related-project .single-related-project {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border-radius: 5px;
@@ -3755,35 +3755,35 @@ ol {
   margin-top: 30px;
 }
 
-.portfolio-details .related-project .single-related-project:hover {
+.Product-details .related-project .single-related-project:hover {
   -webkit-box-shadow: 0px 0px 50px rgba(87, 87, 87, 0.23);
   box-shadow: 0px 0px 50px rgba(87, 87, 87, 0.23);
 }
 
-.portfolio-details .related-project .single-related-project .image {
+.Product-details .related-project .single-related-project .image {
   overflow: hidden;
   border-radius: 5px 5px 0 0;
 }
 
-.portfolio-details .related-project .single-related-project .image img {
+.Product-details .related-project .single-related-project .image img {
   width: 100%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.portfolio-details .related-project .single-related-project:hover .image img {
+.Product-details .related-project .single-related-project:hover .image img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
 
-.portfolio-details .related-project .single-related-project .single-content {
+.Product-details .related-project .single-related-project .single-content {
   padding: 30px;
   border: 1px solid #eee;
   border-top-color: transparent;
   border-radius: 0 0 5px 5px;
 }
 
-.portfolio-details
+.Product-details
   .related-project
   .single-related-project
   .single-content
@@ -3792,7 +3792,7 @@ ol {
   font-size: 13px;
 }
 
-.portfolio-details
+.Product-details
   .related-project
   .single-related-project
   .single-content
@@ -3800,7 +3800,7 @@ ol {
   color: #473bf0;
 }
 
-.portfolio-details
+.Product-details
   .related-project
   .single-related-project
   .single-content
@@ -3811,7 +3811,7 @@ ol {
   color: #081828;
 }
 
-.portfolio-details
+.Product-details
   .related-project
   .single-related-project
   .single-content
@@ -5864,55 +5864,55 @@ blockquote span {
     text-align: center;
     margin-top: 40px;
   }
-  .portfolio-section.section {
+  .Product-section.section {
     padding-bottom: 60px;
   }
-  .portfolio-section .portfolio-btn-wrapper {
+  .Product-section .Product-btn-wrapper {
     position: relative;
     margin-top: 0;
   }
-  .portfolio-item-wrapper {
+  .Product-item-wrapper {
     padding: 0 20px;
   }
-  .portfolio-section .portfolio-btn-wrapper button {
+  .Product-section .Product-btn-wrapper button {
     margin-right: 10px;
     padding: 7px 10px;
     font-size: 13px;
   }
-  .portfolio-section .pf-content {
+  .Product-section .pf-content {
     padding: 0 15px;
     margin-top: 20px;
   }
-  .portfolio-section .pf-content h4 a {
+  .Product-section .pf-content h4 a {
     margin-top: 5px;
     color: #081828;
     font-size: 17px;
     font-weight: 600;
   }
-  .portfolio-section .pf-content .category {
+  .Product-section .pf-content .category {
     font-size: 13px;
   }
-  .portfolio-details .top-head {
+  .Product-details .top-head {
     padding-bottom: 60px;
     padding-top: 60px;
   }
-  .portfolio-details .top-head .cat {
+  .Product-details .top-head .cat {
     margin-bottom: 3px;
   }
-  .portfolio-details .top-head h2 {
+  .Product-details .top-head h2 {
     margin-bottom: 30px;
     font-size: 28px;
     line-height: 50px;
   }
-  .portfolio-section .see-all {
+  .Product-section .see-all {
     display: block;
     margin-top: 20px;
     text-align: center;
   }
-  .portfolio-details .pf-details-sidebar {
+  .Product-details .pf-details-sidebar {
     margin-top: 30px;
   }
-  .portfolio-details .related-project {
+  .Product-details .related-project {
     margin-top: 60px;
   }
   .cta-section .title {
@@ -6493,61 +6493,61 @@ blockquote span {
   .about-us .about-right img {
     width: 100%;
   }
-  .portfolio-section.section {
+  .Product-section.section {
     padding-bottom: 50px;
   }
-  .portfolio-section .portfolio-btn-wrapper {
+  .Product-section .Product-btn-wrapper {
     position: relative;
     margin-top: 0;
   }
-  .portfolio-item-wrapper {
+  .Product-item-wrapper {
     padding: 0 20px;
   }
-  .portfolio-section .portfolio-btn-wrapper button {
+  .Product-section .Product-btn-wrapper button {
     margin-right: 10px;
     padding: 7px 18px;
     font-size: 13px;
   }
-  .portfolio-section .pf-content {
+  .Product-section .pf-content {
     padding: 0 15px;
     margin-top: 20px;
   }
-  .portfolio-section .pf-content h4 a {
+  .Product-section .pf-content h4 a {
     margin-top: 5px;
     color: #081828;
     font-size: 17px;
     font-weight: 600;
   }
-  .portfolio-section .pf-content .category {
+  .Product-section .pf-content .category {
     font-size: 13px;
   }
-  .portfolio-details .top-head {
+  .Product-details .top-head {
     padding-bottom: 60px;
     padding-top: 60px;
   }
-  .portfolio-details .top-head .cat {
+  .Product-details .top-head .cat {
     margin-bottom: 3px;
   }
-  .portfolio-details .top-head h2 {
+  .Product-details .top-head h2 {
     margin-bottom: 30px;
     font-size: 28px;
     line-height: 50px;
   }
-  .portfolio-section .see-all {
+  .Product-section .see-all {
     display: block;
     margin-top: 20px;
     text-align: center;
   }
-  .portfolio-details .pf-details-sidebar {
+  .Product-details .pf-details-sidebar {
     margin-top: 30px;
   }
-  .portfolio-details .related-project {
+  .Product-details .related-project {
     margin-top: 50px;
   }
-  .portfolio-details .related-project .title {
+  .Product-details .related-project .title {
     font-size: 20px !important;
   }
-  .portfolio-details .content h3 {
+  .Product-details .content h3 {
     font-size: 22px;
     margin-bottom: 20px;
     padding-bottom: 20px;
