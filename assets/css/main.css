@@ -23,8 +23,6 @@ Index Of css
 20. Footer CSS
 21. Responsive CSS
 22. Contact CSS
-23. 404 Error CSS
-24. Mail Success CSS
 
 ========================== */
 /*======================================
@@ -3783,11 +3781,7 @@ ol {
   border-radius: 0 0 5px 5px;
 }
 
-.Product-details
-  .related-project
-  .single-related-project
-  .single-content
-  .tag {
+.Product-details .related-project .single-related-project .single-content .tag {
   color: #888;
   font-size: 13px;
 }
@@ -3800,12 +3794,7 @@ ol {
   color: #473bf0;
 }
 
-.Product-details
-  .related-project
-  .single-related-project
-  .single-content
-  h3
-  a {
+.Product-details .related-project .single-related-project .single-content h3 a {
   font-size: 18px;
   font-weight: 600;
   color: #081828;
@@ -6677,7 +6666,7 @@ blockquote span {
     margin-top: 30px;
   }
   .brand-area .clients-logos img {
-    width: 65%;
+    width: 30%;
   }
   .footer .call-action .inner-content .button {
     float: left;
@@ -7039,277 +7028,3 @@ blockquote span {
 /*======================================
 	End Contact CSS
 ========================================*/
-/*======================================
-	Error 404 CSS
-========================================*/
-.error-area {
-  height: 100vh;
-  text-align: center;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
-.error-area .verticle-lines .vlines {
-  width: 3px;
-  height: 100%;
-  background: #473bf036;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: top left;
-  transform-origin: top left;
-  -webkit-animation-name: lineanim;
-  animation-name: lineanim;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  opacity: 0.2;
-}
-
-.error-area .verticle-lines .vlines.one {
-  left: 20%;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-
-.error-area .verticle-lines .vlines.two {
-  left: 40%;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.error-area .verticle-lines .vlines.three {
-  left: 60%;
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-}
-
-.error-area .verticle-lines .vlines.four {
-  left: 80%;
-  -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-}
-
-@-webkit-keyframes lineanim {
-  50% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-  }
-  50.1% {
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-}
-
-@keyframes lineanim {
-  50% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-  }
-  50.1% {
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-}
-
-.d-table {
-  width: 100%;
-  height: 100%;
-}
-
-.d-table {
-  display: table !important;
-}
-
-.d-table-cell {
-  vertical-align: middle;
-}
-
-.d-table-cell {
-  display: table-cell !important;
-}
-
-.error-area .error-content h1 {
-  font-size: 100px;
-  color: #473bf0;
-  margin-bottom: 10px;
-  font-weight: 800;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color: #473bf0;
-  text-shadow: 4px 0px 0px #473bf0;
-}
-
-.error-area .error-content h2 {
-  font-size: 20px;
-  margin-bottom: 5px;
-  font-weight: 600;
-  margin-top: 10px;
-  color: #081828;
-}
-
-.error-area .error-content p {
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-
-/*======================================
-	Mail Success CSS
-========================================*/
-.mail-success {
-  height: 100vh;
-  text-align: center;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
-.mail-success .verticle-lines .vlines {
-  width: 3px;
-  height: 100%;
-  background: #473bf036;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: top left;
-  transform-origin: top left;
-  -webkit-animation-name: lineanim;
-  animation-name: lineanim;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  opacity: 0.2;
-}
-
-.mail-success .verticle-lines .vlines.one {
-  left: 20%;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-
-.mail-success .verticle-lines .vlines.two {
-  left: 40%;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.mail-success .verticle-lines .vlines.three {
-  left: 60%;
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-}
-
-.mail-success .verticle-lines .vlines.four {
-  left: 80%;
-  -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-}
-
-@-webkit-keyframes lineanim {
-  50% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-  }
-  50.1% {
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-}
-
-@keyframes lineanim {
-  50% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-  }
-  50.1% {
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-  }
-}
-
-.d-table {
-  width: 100%;
-  height: 100%;
-}
-
-.d-table {
-  display: table !important;
-}
-
-.d-table-cell {
-  vertical-align: middle;
-}
-
-.d-table-cell {
-  display: table-cell !important;
-}
-
-.mail-success .error-content h1 {
-  font-size: 40px;
-  color: #473bf0;
-  margin-bottom: 10px;
-  font-weight: 800;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color: #473bf0;
-  text-shadow: 2px 1px 0px #473bf0;
-  letter-spacing: 2px;
-}
-
-.mail-success .error-content h2 {
-  font-size: 20px;
-  margin-bottom: 5px;
-  font-weight: 600;
-  margin-top: 30px;
-  color: #081828;
-}
-
-.mail-success .error-content p {
-  font-weight: 400;
-  margin-bottom: 30px;
-}
