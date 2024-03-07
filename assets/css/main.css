@@ -3112,7 +3112,9 @@ ol {
 }
 
 .about-us .about-right img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -4368,7 +4370,7 @@ ol {
 ========================================*/
 .intro-video-area {
   background-color: #f4f7fa;
-  background-image: url("../images/video/video-bg.jpg");
+  background-image: url("../images/Product/display_stand/display_stand_for_supermarket_1.jpg");
   background-size: cover;
   background-position: center;
   padding: 120px 60px;
@@ -4399,8 +4401,8 @@ ol {
 }
 
 .intro-video-area .intro-video-play .play-thumb a {
-  height: 70px;
-  width: 70px;
+  height: auto;
+  max-width: 100%;
   text-align: center;
   line-height: 67px;
   background: #fff;
