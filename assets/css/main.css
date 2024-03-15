@@ -5399,14 +5399,18 @@ blockquote span {
 
 .brand-area .display-stand-image-row-1 .single-image {
   display: inline-block;
-  max-height: 50%;
-  max-width: auto;
+  width: 140px;
+  height: 220px;
+  padding: 0px;
+  border: 1px;
 }
 
 .brand-area .display-stand-image-row-2 .single-image {
   display: inline-block;
-  max-height: 50%;
-  max-width: auto;
+  width: 140px;
+  height: 220px;
+  padding: 0px;
+  border: 1px;
 }
 
 .brand-area .clients-logos .specification {
