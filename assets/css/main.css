@@ -5397,8 +5397,16 @@ blockquote span {
   margin-top: 50px;
 }
 
-.brand-area .clients-logos .single-image {
+.brand-area .display-stand-image-row-1 .single-image {
   display: inline-block;
+  max-height: 50%;
+  max-width: auto;
+}
+
+.brand-area .display-stand-image-row-2 .single-image {
+  display: inline-block;
+  max-height: 50%;
+  max-width: auto;
 }
 
 .brand-area .clients-logos .specification {
