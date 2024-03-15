@@ -5399,6 +5399,7 @@ blockquote span {
 
 .brand-area .display-stand-image-row-1 .single-image {
   display: inline-block;
+  font-size: 0;
   width: 140px;
   height: 220px;
   padding: 0px;
@@ -5407,6 +5408,7 @@ blockquote span {
 
 .brand-area .display-stand-image-row-2 .single-image {
   display: inline-block;
+  font-size: 0;
   width: 140px;
   height: 220px;
   padding: 0px;
