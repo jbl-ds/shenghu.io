@@ -3143,7 +3143,7 @@ ol {
 
 .our-achievement {
   background-color: #473bf0;
-  background-image: url("../images/hero/hero1-pattern.png");
+  background-image: url("../images/about/pattern.png");
 }
 
 .our-achievement .single-achievement {
@@ -5392,13 +5392,17 @@ blockquote span {
 }
 
 .brand-area .clients-logos {
-  text-align: center;
+  text-align: justify;
   display: inline-block;
   margin-top: 50px;
 }
 
 .brand-area .clients-logos .single-image {
   display: inline-block;
+}
+
+.brand-area .clients-logos .specification {
+  text-align: justify;
 }
 
 .brand-area .clients-logos img {
